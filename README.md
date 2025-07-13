@@ -1,9 +1,9 @@
-# LatentShrink: VAE-based Image Compression
+# zShrink: VAE-based Image Compression
 
 ![Model](https://img.shields.io/badge/model-VAE-red)
 ![Compression](https://img.shields.io/badge/focus-Latent%20Space%20Compression-blue)
 
-**LatentShrink** is a research-oriented image compression pipeline using **Variational Autoencoders (VAEs)** that compress images by shrinking their latent representations rather than directly reducing pixel data.
+**zShrink** is a research-oriented image compression pipeline using **Variational Autoencoders (VAEs)** that compress images by shrinking their latent representations rather than directly reducing pixel data.
 
 ---
 
@@ -27,13 +27,7 @@
 
 ---
 
-## 🏋️‍♂️ Training / Running Notebook
-
-Run the provided notebook:
-
-[![Open In Colab](https://colab.research.google.com/drive/1hs3s3LxchY3HejgMI_wgjkbXTySCDZsZ?usp=sharing)
-
-It includes:
+## 🏋️‍♂️ Training 
 
 * Model training
 * Latent shrink experiments
@@ -79,12 +73,6 @@ pip install -r requirements.txt
 * [ ] Support custom datasets
 * [ ] Deploy as Streamlit/Web demo
 * [ ] Add comparative study with JPEG/PNG
-
----
-
-## 📃 License
-
-Licensed under the [MIT License](LICENSE).
 
 ---
 
